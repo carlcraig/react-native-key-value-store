@@ -23,7 +23,7 @@ console.log(value); // should be default value if foo hasn't already been set
 
 await Storage.set('foo', 'bar');
 
-value = Storage.get('foo');
+value = await Storage.get('foo');
 console.log(value); // should be 'bar' as it has been set
 ```
 
