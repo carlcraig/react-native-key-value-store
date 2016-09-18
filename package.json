@@ -1,0 +1,28 @@
+{
+  "name": "react-native-key-value-store",
+  "version": "1.0.0",
+  "description": "A wrapper for React-Native AsyncStorage",
+  "homepage": "https://github.com/carlcraig/react-native-key-value-store/",
+  "author": "Carl Craig <carlcraig.threeceestudios@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "React Native",
+    "AsyncStorage",
+    "data",
+    "store",
+    "key value",
+    "iOS",
+    "Android"
+  ],
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlcraig/react-native-key-value-store.git"
+  }
+}
