@@ -22,6 +22,10 @@ export class KeyValueStore {
     return await AsyncStorage.setItem(`${this.__createKey(key)}`, JSON.stringify(value));
   }
 
+  async merge(key, value) {
+    return await AsyncStorage.mergeItem(`${this.__createKey(key)}`, JSON.stringify(value));
+  }
+
   async remove(key) {
     return await AsyncStorage.removeItem(this.__createKey(key));
   }
