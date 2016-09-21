@@ -1,6 +1,6 @@
 {
   "name": "react-native-key-value-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for React-Native AsyncStorage",
   "homepage": "https://github.com/carlcraig/react-native-key-value-store/",
   "author": "Carl Craig <carlcraig.threeceestudios@gmail.com>",
