@@ -13,8 +13,6 @@ npm i --save react-native-key-value-store
 Basic Usage
 -----------
 
-All methods on the `KeyValueStore` are `async` and therefore return `promises`.
-
 ```js
 import Storage from 'react-native-key-value-store';
 
@@ -27,6 +25,8 @@ value = await Storage.get('foo');
 console.log(value); // should be 'bar' as it has been set
 ```
 
+> All methods on the `KeyValueStore` are `async` and therefore return `promises`.
+
 Methods
 -------
 
@@ -38,6 +38,10 @@ in case the key does not exist in the store.
 ### `set(key, value)`
 
 This will set a value based for the key provided.
+
+### `merge(key, value)`
+
+This will merge a value into the existing value in storage
 
 ### `remove(key)`
 
