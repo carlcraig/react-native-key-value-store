@@ -15,6 +15,11 @@ export class KeyValueStore {
     } catch (error) {
       value = defaultValue;
     }
+    
+    if (value == null) {
+      value = defaultValue;
+    }
+
     return value;
   }
 
